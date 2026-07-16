@@ -1,6 +1,6 @@
 @extends('layouts.home')
 
-@section('title', $title ?? 'Selaras — Sofa yang Dibuat untuk Ditinggali')
+@section('title', $title ?? 'Wonosofa — Sofa yang Dibuat untuk Ditinggali')
 
 @push('styles')
     <style>
@@ -149,11 +149,11 @@
         </div>
     </section>
 
-    <!-- KENAPA SELARAS -->
+    <!-- KENAPA Wonosofa -->
     <section id="kenapa" class="py-24 md:py-28 px-6 md:px-10 bg-charcoal-900 text-stone-50">
         <div class="max-w-7xl mx-auto grid md:grid-cols-3 gap-12">
             <div class="reveal">
-                <p class="uppercase tracking-[0.2em] text-xs text-stone-50/50 font-medium mb-4">Kenapa Selaras</p>
+                <p class="uppercase tracking-[0.2em] text-xs text-stone-50/50 font-medium mb-4">Kenapa Wonosofa</p>
                 <h2 class="font-display text-4xl tracking-tight leading-tight">Dibuat pelan-pelan, supaya awet lama.
                 </h2>
                 <p class="mt-5 text-stone-50/60 leading-relaxed">Kami hanya mengerjakan satu batch kecil per minggu,
