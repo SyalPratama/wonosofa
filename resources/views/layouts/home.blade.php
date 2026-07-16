@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@yield('title', 'Wonosofa — Sofa yang Dibuat untuk Ditinggali')</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" type="image/jpeg" href="{{ asset('assets/img/home/favicon.jpeg') }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
@@ -121,7 +122,9 @@
     <!-- NAV -->
     <header class="fixed top-0 inset-x-0 z-50 backdrop-blur bg-stone-50/80 border-b border-line">
         <div class="max-w-7xl mx-auto px-6 md:px-10 h-18 py-4 flex items-center justify-between">
-            <a href="{{ route('home') }}" class="font-display text-2xl tracking-tight">Wonosofa</a>
+            <a href="{{ route('home') }}" class="flex items-center">
+                <img src="{{ asset('assets/img/home/logo-utama.png') }}" alt="Wonosofa" class="h-11 w-auto">
+            </a>
 
             <nav class="hidden md:flex items-center gap-9 text-sm text-charcoal-900/70">
                 <a href="{{ route('home') }}"

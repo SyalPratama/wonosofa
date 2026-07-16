@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Login - Wonosofa</title>
-
+    <link rel="icon" type="image/jpeg" href="{{ asset('assets/img/home/favicon.jpeg') }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link
         href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600;700&display=swap"
@@ -112,10 +112,8 @@
             <div class="absolute inset-0 bg-noise opacity-[0.06] pointer-events-none"></div>
 
             <div class="relative z-10 flex items-center gap-3">
-                <div class="w-10 h-10 rounded-full bg-clay-400 flex items-center justify-center">
-                    <span class="font-display italic text-charcoal-900 text-lg">S</span>
-                </div>
-                <span class="font-display text-xl tracking-wide">Wonosofa</span>
+                <img src="{{ asset('assets/img/home/logo-utama.png') }}" alt="Wonosofa"
+                    class="h-12 w-auto bg-[#F3EEE6] rounded-xl p-2">
             </div>
 
             <div class="relative z-10 max-w-md reveal in">

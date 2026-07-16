@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@yield('title', 'Dashboard') - Wonosofa</title>
-
+    <link rel="icon" type="image/jpeg" href="{{ asset('assets/img/home/favicon.jpeg') }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link
         href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600;700&display=swap"
@@ -93,10 +93,8 @@
             class="fixed inset-y-0 left-0 z-40 w-72 bg-charcoal-900 text-stone-50 flex flex-col
                    -translate-x-full lg:translate-x-0 lg:static lg:z-0">
             <div class="flex items-center gap-3 px-6 h-20 border-b border-white/10">
-                <div class="w-9 h-9 rounded-full bg-clay-400 flex items-center justify-center shrink-0">
-                    <span class="font-display italic text-charcoal-900">S</span>
-                </div>
-                <span class="font-display text-lg tracking-wide">Wonosofa</span>
+                <img src="{{ asset('assets/img/home/logo-utama.png') }}" alt="Wonosofa"
+                    class="h-11 w-auto bg-[#F3EEE6] rounded-xl p-1.5">
 
                 <button type="button" onclick="toggleSidebar(false)"
                     class="ml-auto lg:hidden text-stone-50/60 hover:text-stone-50 p-2" aria-label="Tutup menu">
