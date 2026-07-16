@@ -8,7 +8,7 @@ use Illuminate\View\View;
 class LandingPageController extends Controller
 {
     /**
-     * Tampilkan landing page utama Selaras.
+     * Tampilkan landing page utama Wonosofa.
      *
      * Produk & kain diambil langsung dari database, dan urutannya
      * diacak setiap kali halaman di-refresh (inRandomOrder()).
@@ -18,7 +18,7 @@ class LandingPageController extends Controller
         $products = $this->products();
 
         return view('welcome', [
-            'title'    => 'Selaras — Sofa yang Dibuat untuk Ditinggali',
+            'title'    => 'Wonosofa — Sofa yang Dibuat untuk Ditinggali',
             'products' => $products,
             'product'  => $products->first(),
             'fabrics'  => $this->fabrics($products->first()),
