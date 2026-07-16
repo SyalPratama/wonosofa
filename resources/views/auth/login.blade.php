@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Login - Selaras</title>
+    <title>Admin Login - Wonosofa</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link
@@ -115,7 +115,7 @@
                 <div class="w-10 h-10 rounded-full bg-clay-400 flex items-center justify-center">
                     <span class="font-display italic text-charcoal-900 text-lg">S</span>
                 </div>
-                <span class="font-display text-xl tracking-wide">Selaras</span>
+                <span class="font-display text-xl tracking-wide">Wonosofa</span>
             </div>
 
             <div class="relative z-10 max-w-md reveal in">
@@ -133,7 +133,7 @@
                 <span class="swatch active w-6 h-6 rounded-full bg-clay-400 block"></span>
                 <span class="swatch w-6 h-6 rounded-full bg-olive-600 block"></span>
                 <span class="swatch w-6 h-6 rounded-full bg-stone-200 block"></span>
-                <span class="text-xs text-stone-200/50 ml-2">&copy; {{ date('Y') }} Selaras</span>
+                <span class="text-xs text-stone-200/50 ml-2">&copy; {{ date('Y') }} Wonosofa</span>
             </div>
         </div>
 
@@ -146,7 +146,7 @@
                     <div class="w-9 h-9 rounded-full bg-clay-400 flex items-center justify-center">
                         <span class="font-display italic text-charcoal-900">S</span>
                     </div>
-                    <span class="font-display text-lg tracking-wide text-charcoal-900">Selaras</span>
+                    <span class="font-display text-lg tracking-wide text-charcoal-900">Wonosofa</span>
                 </div>
 
                 <p class="uppercase tracking-[0.25em] text-xs text-olive-700 mb-2">Admin</p>
@@ -224,7 +224,7 @@
                 </form>
 
                 <p class="mt-8 text-center text-xs text-charcoal-900/40">
-                    Halaman ini khusus untuk administrator Selaras.
+                    Halaman ini khusus untuk administrator Wonosofa.
                     <br>Hubungi tim IT jika Anda mengalami kendala akses.
                 </p>
             </div>

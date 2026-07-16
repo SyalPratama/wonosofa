@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@yield('title', 'Dashboard') - Selaras</title>
+    <title>@yield('title', 'Dashboard') - Wonosofa</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link
@@ -96,7 +96,7 @@
                 <div class="w-9 h-9 rounded-full bg-clay-400 flex items-center justify-center shrink-0">
                     <span class="font-display italic text-charcoal-900">S</span>
                 </div>
-                <span class="font-display text-lg tracking-wide">Selaras</span>
+                <span class="font-display text-lg tracking-wide">Wonosofa</span>
 
                 <button type="button" onclick="toggleSidebar(false)"
                     class="ml-auto lg:hidden text-stone-50/60 hover:text-stone-50 p-2" aria-label="Tutup menu">

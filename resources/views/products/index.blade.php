@@ -1,6 +1,6 @@
 @extends('layouts.home')
 
-@section('title', 'Koleksi Produk — Selaras')
+@section('title', 'Koleksi Produk — Wonosofa')
 
 @section('content')
 

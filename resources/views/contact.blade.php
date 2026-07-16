@@ -1,6 +1,6 @@
 @extends('layouts.home')
 
-@section('title', 'Hubungi Kami — Selaras')
+@section('title', 'Hubungi Kami — Wonosofa')
 
 @section('content')
 
@@ -37,8 +37,8 @@
                     </div>
                     <div>
                         <p class="uppercase tracking-[0.2em] text-xs text-olive-700 font-medium mb-3">Email</p>
-                        <a href="mailto:hello@selaras.id" class="text-charcoal-900/70 hover:text-charcoal-900">
-                            hello@selaras.id
+                        <a href="mailto:hello@Wonosofa.id" class="text-charcoal-900/70 hover:text-charcoal-900">
+                            hello@Wonosofa.id
                         </a>
                     </div>
                     <div>

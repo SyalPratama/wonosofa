@@ -1,6 +1,6 @@
 @extends('layouts.home')
 
-@section('title', 'Tentang Kami — Selaras')
+@section('title', 'Tentang Kami — Wonosofa')
 
 @section('content')
 
@@ -13,7 +13,7 @@
                     Furnitur yang dirancang untuk dipakai, bukan sekadar dipajang.
                 </h1>
                 <p class="text-charcoal-900/60 max-w-sm">
-                    Selaras lahir dari keinginan sederhana: membuat sofa yang benar-benar cocok
+                    Wonosofa lahir dari keinginan sederhana: membuat sofa yang benar-benar cocok
                     dengan cara kamu tinggal, bukan sebaliknya.
                 </p>
             </div>
@@ -24,7 +24,7 @@
     <section class="py-16 md:py-20 px-6 md:px-10">
         <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
             <div class="rounded-2xl overflow-hidden bg-stone-200 aspect-[4/5]">
-                <img src="https://placehold.co/800x1000?text=Selaras+Workshop" alt="Workshop Selaras"
+                <img src="https://placehold.co/800x1000?text=Wonosofa+Workshop" alt="Workshop Wonosofa"
                     class="w-full h-full object-cover">
             </div>
             <div>
@@ -47,7 +47,7 @@
     <!-- NILAI-NILAI -->
     <section class="py-16 md:py-20 px-6 md:px-10 bg-stone-100">
         <div class="max-w-7xl mx-auto">
-            <p class="uppercase tracking-[0.2em] text-xs text-olive-700 font-medium mb-4">Kenapa Selaras</p>
+            <p class="uppercase tracking-[0.2em] text-xs text-olive-700 font-medium mb-4">Kenapa Wonosofa</p>
             <h2 class="font-display text-3xl md:text-4xl tracking-tight mb-12 max-w-lg">
                 Tiga hal yang selalu kami jaga di setiap produk.
             </h2>

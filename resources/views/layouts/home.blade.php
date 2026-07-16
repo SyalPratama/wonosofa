@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@yield('title', 'Selaras — Sofa yang Dibuat untuk Ditinggali')</title>
+    <title>@yield('title', 'Wonosofa — Sofa yang Dibuat untuk Ditinggali')</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -121,7 +121,7 @@
     <!-- NAV -->
     <header class="fixed top-0 inset-x-0 z-50 backdrop-blur bg-stone-50/80 border-b border-line">
         <div class="max-w-7xl mx-auto px-6 md:px-10 h-18 py-4 flex items-center justify-between">
-            <a href="{{ route('home') }}" class="font-display text-2xl tracking-tight">Selaras</a>
+            <a href="{{ route('home') }}" class="font-display text-2xl tracking-tight">Wonosofa</a>
 
             <nav class="hidden md:flex items-center gap-9 text-sm text-charcoal-900/70">
                 <a href="{{ route('home') }}"
@@ -193,7 +193,7 @@
     <!-- FOOTER -->
     <footer class="px-6 md:px-10 py-12 border-t border-line">
         <div class="max-w-7xl mx-auto flex flex-col md:flex-row md:items-center justify-between gap-6">
-            <a href="#" class="font-display text-xl">Selaras</a>
+            <a href="#" class="font-display text-xl">Wonosofa</a>
             <p class="text-sm text-charcoal-900/50">Studio &amp; showroom di Bandung · Pengiriman ke seluruh Indonesia
             </p>
             <div class="flex gap-6 text-sm text-charcoal-900/60">
@@ -202,7 +202,7 @@
                 <a href="#" class="hover:text-charcoal-900">Email</a>
             </div>
         </div>
-        <p class="max-w-7xl mx-auto mt-8 text-xs text-charcoal-900/40">© {{ date('Y') }} Selaras Furnitur. Semua
+        <p class="max-w-7xl mx-auto mt-8 text-xs text-charcoal-900/40">© {{ date('Y') }} Wonosofa Furnitur. Semua
             hak
             dilindungi.
         </p>

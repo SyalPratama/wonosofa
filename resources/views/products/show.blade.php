@@ -1,6 +1,6 @@
 @extends('layouts.home')
 
-@section('title', $product->name . ' — Selaras')
+@section('title', $product->name . ' — Wonosofa')
 
 @section('content')
 
