@@ -1,0 +1,49 @@
+version: "3.9"
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: tokoSofa_app
+    restart: unless-stopped
+    working_dir: /var/www/html
+    volumes:
+      - ./:/var/www/html
+    networks:
+      - tokoSofa_net
+
+  web:
+    image: nginx:alpine
+    container_name: tokoSofa_web
+    restart: unless-stopped
+    ports:
+      - "8118:80"
+    volumes:
+      - ./:/var/www/html
+      - ./docker/nginx/conf.d/:/etc/nginx/conf.d/
+    depends_on:
+      - app
+    networks:
+      - tokoSofa_net
+
+  db:
+    image: postgres:15
+    container_name: tokoSofa_db
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: tokoSofa_db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 123qwerty
+    ports:
+      - "5463:5432"
+    volumes:
+      - tokoSofa_db_data:/var/lib/postgresql/data
+    networks:
+      - tokoSofa_net
+
+networks:
+  tokoSofa_net:
+
+volumes:
+  tokoSofa_db_data:
