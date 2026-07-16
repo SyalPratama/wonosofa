@@ -513,9 +513,7 @@
                                     data-color-new-name disabled
                                     class="hidden flex-1 rounded-xl border border-line px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-charcoal-900/20">
 
-                                <input type="number" name="colors[__INDEX__][stock]" min="0" value="0"
-                                    placeholder="Stok"
-                                    class="w-20 rounded-xl border border-line px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-charcoal-900/20">
+        
                                 <button type="button" onclick="removeColorRow(this)"
                                     class="w-9 h-9 rounded-lg border border-line flex items-center justify-center text-clay-400 shrink-0">
                                     <i class="fa-solid fa-xmark text-xs"></i>
